@@ -17,23 +17,92 @@ img {
   max-width: 100%;
   height: auto;  
 }
-@media only screen and (max-width: 768px) {
-.img2 {
-  display:none;
-}
-
-@media only screen and (min-width: 768px) {
 .parrafo1 {
   max-width: 50%;
   height: auto;
   float:left;
-  border:10px;
+  border:0px;
   }
 .parrafo2 {
   max-width: 50%;
   height: auto; 
   float:right;
-  border:10px;
+  border:0px;
   }
+.content {
+  width:100%;
+  background-color:black;
+}
 
+.imagen1 {
+  float:left;
+  width:80%;
+}
+.sidebar {
+  float:right;
+  width:20%;
+}
+
+
+  @media only screen and (min-width : 480px) {
+    .parrafo1 {
+  max-width: 100%;
+  height: auto;
+  float:left;
+  border:0px;
+  }
+.parrafo2 {
+  max-width: 100%;
+  height: auto; 
+  float:right;
+  border:0px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .sidebar {
+    display:none;
+  }
+}
+  @media only screen and (min-width : 768px) {
+  .parrafo1 {
+  max-width: 100%;
+  height: auto;
+  float:left;
+  border:0px;
+  }
+.parrafo2 {
+  max-width: 100%;
+  height: auto; 
+  float:right;
+  border:0px;
+  }
+}
+  @media only screen and (min-width : 992px) {
+  .parrafo1 {
+  max-width: 50%;
+  height: auto;
+  float:left;
+  border:0px;
+  }
+.parrafo2 {
+  max-width: 50%;
+  height: auto; 
+  float:right;
+  border:0px;
+  }
+}
+  @media only screen and (min-width : 1200px) {
+  .parrafo1 {
+  max-width: 45%;
+  height: auto;
+  float:left;
+  border:0px;
+  }
+.parrafo2 {
+  max-width: 45%;
+  height: auto; 
+  float:right;
+  border:0px;
+  }
 }
