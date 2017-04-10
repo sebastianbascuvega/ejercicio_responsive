@@ -1,0 +1,39 @@
+html {
+  height:100%;
+  width:100%;
+}
+
+body {
+  height:100%;
+  width:100%;
+  text-align:center;
+}
+h1 {
+  background-color:#ccc;
+  color:#fff;
+  height: 100px;
+}
+img {
+  max-width: 100%;
+  height: auto;  
+}
+@media only screen and (max-width: 768px) {
+.img2 {
+  display:none;
+}
+
+@media only screen and (min-width: 768px) {
+.parrafo1 {
+  max-width: 50%;
+  height: auto;
+  float:left;
+  border:10px;
+  }
+.parrafo2 {
+  max-width: 50%;
+  height: auto; 
+  float:right;
+  border:10px;
+  }
+
+}
